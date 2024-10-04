@@ -23,4 +23,4 @@ Data Engineering
 *   **Business Intelligence & Reporting**: Powering business analytics through integrations with BI tools like Tableau, Power BI, and Looker to derive actionable insights from data.
 
 
-[data_image](./data.jpeg)
+![data_image](./data.jpeg)
