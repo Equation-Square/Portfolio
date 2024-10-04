@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">BLOOD BANK</string>
+    <string-array name="BlOOD_GROUPS">
+        <item>Select</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>0+</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>0-</item>
+        <item>A-</item>
+        <item>B-</item>
+
+    </string-array>
+    <string-array name="city">
+        <item>Choose Your City</item>
+        <item>Islamabad</item>
+        <item>Ahmedpur East</item>
+        <item>Arif Wala</item>
+        <item>Attock</item>
+        <item>Awaran</item>
+        <item>Abbottabad</item>
+        <item>Akora Khattak</item>
+        <item>Amangarh</item>
+        <item>Abbaspur</item>
+        <item>Athmuqam</item>
+        <item>Allabad</item>
+
+        <item>Bahawalnagar</item>
+        <item>Bahawalpur</item>
+        <item>Bhakkar</item>
+        <item>Bhalwal</item>
+        <item>Burewala</item>
+        <item>Bhiria City</item>
+        <item>Bhiria Road</item>
+        <item>Bhirkan</item>
+        <item>Boriri</item>
+        <item>Barkhan</item>
+        <item>Bela</item>
+        <item>Bhag</item>
+        <item>Buleda</item>
+        <item>Bahrain</item>
+        <item>Bannu</item>
+        <item>Barikot</item>
+        <item>Batkhela</item>
+        <item>Bagh</item>
+        <item>Bhimbar</item>
+
+        <item>Chakwal</item>
+        <item>Chiniot</item>
+        <item>Chishtian</item>
+        <item>Chak</item>
+        <item>Chaman</item>
+        <item>Chitkan</item>
+        <item>Charsadda</item>
+        <item>Chitral</item>
+        <item>Chakswari</item>
+        <item>Charhoi</item>
+        <item>Chikkar</item>
+        <item>Chilas</item>
+
+        <item>Daska</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Dadu</item>
+        <item>Daharki</item>
+        <item>Daulatpur</item>
+        <item>Digri</item>
+        <item>Diplo</item>
+        <item>Dokri</item>
+        <item>Dalbandin</item>
+        <item>Dera Allah Yar</item>
+        <item>Dera Bugti</item>
+        <item>dera Murad Jamil</item>
+        <item>Dhadar</item>
+        <item>Duki</item>
+        <item>Dureji</item>
+        <item>Dera Ismail Khan</item>
+        <item>Dir</item>
+        <item>Dadyal</item>
+        <item>Dhirkot</item>
+        <item>Dambudus</item>
+        <item>Danyor</item>
+
+        <item>Eidghah</item>
+
+        <item>Faisalabad</item>
+        <item>Ferozewala</item>
+        <item>Farwad Kahuta</item>
+        <item>Fatehpur Thakiala</item>
+
+        <item>Gojra</item>
+        <item>Gujranwala</item>
+        <item>Gujranwala Cantonment</item>
+        <item>Gujrat</item>
+        <item>Gambat</item>
+        <item>Garhi Yasin</item>
+        <item>Ghotki</item>
+        <item>Guddu Barrage</item>
+        <item>Ghotki</item>
+        <item>Guddu Barrage</item>
+        <item>Gajjar Mashkay</item>
+        <item>Gwadar</item>
+        <item>Garhi Dubatta</item>
+        <item>Gahkuch</item>
+        <item>Gilgit</item>
+
+        <item>Hafizabad</item>
+        <item>Haroonabad</item>
+        <item>Hasilpur</item>
+        <item>Hala</item>
+        <item>Hyderabad</item>
+        <item>Harnai</item>
+        <item>Hub</item>
+        <item>Huramzai</item>
+        <item>Hangu</item>
+        <item>Haripur</item>
+        <item>Havelian</item>
+        <item>Hajira</item>
+        <item>Hattan Bala</item>
+
+        <item>Islamkot</item>
+        <item>Islamgarh</item>
+        <item>Ishkoman</item>
+
+        <item>Jaranwala</item>
+        <item>Jatoi</item>
+        <item>Jhang</item>
+        <item>Jhelum</item>
+        <item>Jacobabad</item>
+        <item>Jam Sahib</item>
+        <item>Jamshoro</item>
+        <item>Jiwani</item>
+        <item>Jamrud</item>
+        <item>Jehangira</item>
+        <item>Juglot</item>
+
+        <item>Kamalia</item>
+        <item>Kamoke</item>
+        <item>Kasur</item>
+        <item>Khanewal</item>
+        <item>Khanpur</item>
+        <item>Khushab</item>
+        <item>Kot Abdul Malik</item>
+        <item>Kot Addu</item>
+        <item>Kandhkot</item>
+        <item>Kandiaro</item>
+        <item>Karachi</item>
+        <item>Kashmore</item>
+        <item>Keti Bandar</item>
+        <item>Khadro</item>
+        <item>Khairpur</item>
+        <item>Khairpur Mirs</item>
+        <item>Khipro</item>
+        <item>Kiamari</item>
+        <item>Korangi</item>
+        <item>Kot Diji</item>
+        <item>Kotri</item>
+        <item>Kunri</item>
+        <item>Khanozai</item>
+        <item>Kharan</item>
+        <item>Khuzdar</item>
+        <item>Kohlu</item>
+        <item>Kabal</item>
+        <item>Karak</item>
+        <item>Khalabat</item>
+        <item>Khwazakhela</item>
+        <item>Kohat</item>
+        <item>Khai Gala</item>
+        <item>Khuiratta</item>
+        <item>Kotli</item>
+        <item>Karimabad</item>
+        <item>Khaplu</item>
+
+        <item>Lahore</item>
+        <item>Layyah</item>
+        <item>Lodhran</item>
+        <item>Lakhi ghulam shah</item>
+        <item>Larkana</item>
+        <item>Latifabad</item>
+        <item>Loralai</item>
+        <item>Lakki Marwat</item>
+        <item>Landi Kotal</item>
+
+        <item>Mandi Bahauddin</item>
+        <item>Mianwali</item>
+        <item>Multan</item>
+        <item>Muridke</item>
+        <item>Muzaffargath</item>
+        <item>Madeji</item>
+        <item>Malir</item>
+        <item>Manjhand</item>
+        <item>Maqsoodo Rind</item>
+        <item>Mehar</item>
+        <item>Mehrabpur</item>
+        <item>Mian Sahib</item>
+        <item>Miranpur</item>
+        <item>Mirpur Khas</item>
+        <item>Mirpur Mathelo</item>
+        <item>Mithani</item>
+        <item>Mithi</item>
+        <item>Moro</item>
+        <item>Mothparja</item>
+        <item>Machh</item>
+        <item>Mastung</item>
+        <item>Musakhel</item>
+        <item>Muslim Bagh</item>
+        <item>Mansehra</item>
+        <item>Mardan</item>
+        <item>Matta</item>
+        <item>Mingora</item>
+        <item>Mirpur</item>
+        <item>Muzaffarabad</item>
+
+        <item>Narowal</item>
+        <item>Nagarparkar</item>
+        <item>Nasirabad</item>
+        <item>Naudero</item>
+        <item>Naushahro Feroze</item>
+        <item>Nawabshah</item>
+        <item>Nal</item>
+        <item>Nushki</item>
+        <item>Nawan Shehr</item>
+        <item>Nowshera</item>
+        <item>Nagarkhas</item>
+
+        <item>Okara</item>
+        <item>Ormara</item>
+
+        <item>Pakpattan</item>
+        <item>Pir Jo Goth</item>
+        <item>Piryaloi</item>
+        <item>Pasni</item>
+        <item>Pishin</item>
+        <item>Pabbi</item>
+        <item>Paharpur</item>
+        <item>Paroa</item>
+        <item>Peshawar</item>
+        <item>Palandri</item>
+        <item>Patikka</item>
+
+        <item>Qambar</item>
+        <item>Qasimabad</item>
+        <item>Qubo Saeed Khan</item>
+        <item>Qalat</item>
+        <item>Qilla Abdullah</item>
+        <item>Qilla Saifullah</item>
+        <item>Quetta</item>
+
+        <item>Rahim Yar Khan</item>
+        <item>Rawalpindi</item>
+        <item>Rajo Khanani</item>
+        <item>Ranipur</item>
+        <item>Ratodero</item>
+        <item>Rohri</item>
+        <item>Rasilpur</item>
+        <item>Rawala Kot</item>
+
+        <item>Sadiqabad</item>
+        <item>Sahiwal</item>
+        <item>Sambrial</item>
+        <item>Samundri</item>
+        <item>Sargodha</item>
+        <item>Sheikhupura</item>
+        <item>Sialkot</item>
+        <item>Sakrand</item>
+        <item>Samaro</item>
+        <item>Sanghar</item>
+        <item>Sann</item>
+        <item>Sehwan Sharif</item>
+        <item>Shahbandar</item>
+        <item>Shahdadkot</item>
+        <item>Shahdadput</item>
+        <item>Shahpur Chakar</item>
+        <item>Shahpur Jahania</item>
+        <item>Shikarpaur</item>
+        <item>Sijawal Junejo</item>
+        <item>Sinjhoro</item>
+        <item>Sita Road</item>
+        <item>Sobho Dero</item>
+        <item>Sukkur</item>
+        <item>Saranan</item>
+        <item>Shahrug</item>
+        <item>Sibi</item>
+        <item>Sohbatpur</item>
+        <item>Sui Town</item>
+        <item>Surab</item>
+        <item>Sadda</item>
+        <item>Shabqadar</item>
+        <item>Swabi</item>
+        <item>Samahni</item>
+        <item>Sehnsa</item>
+        <item>Shigar</item>
+        <item>Skardu</item>
+
+        <item>Taxila</item>
+        <item>Tando Adam Khan</item>
+        <item>Tando Allahyar</item>
+        <item>Tando Bagho</item>
+        <item>Tando Muhammad Khan</item>
+        <item>Tangwani</item>
+        <item>Thari Mirwah</item>
+        <item>Tharushah</item>
+        <item>Thatta</item>
+        <item>Thul</item>
+        <item>Tasp</item>
+        <item>Tump</item>
+        <item>Turbat</item>
+        <item>Takht-i-Bahi</item>
+        <item>Tall</item>
+        <item>Tangi</item>
+        <item>Tank</item>
+        <item>Timargara</item>
+        <item>Topi</item>
+        <item>Tordher</item>
+        <item>Tangir</item>
+        <item>Tolti</item>
+
+        <item>Ubauro</item>
+        <item>Umerkot</item>
+        <item>Usta Mohammad</item>
+        <item>Uthal</item>
+        <item>Utmanzai</item>
+
+        <item>Vehari</item>
+
+        <item>Wah Cantonment</item>
+        <item>Warah</item>
+
+        <item>Wazirabad</item>
+        <item>Wadh</item>
+        <item>Washuk</item>
+        <item>Winder</item>
+
+        <item>Zehri</item>
+        <item>Zhob</item>
+        <item>Zaida</item>
+
+
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aaa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registeractivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="730dp"
+                android:background="#FBF9D9">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bloodpart2" />
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BLOOD BANK"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registerion"
+                    android:textColor="@color/teal_700"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title3"
+                    app:layout_constraintTop_toBottomOf="@+id/title3" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="24dp"
+                    app:cardCornerRadius="30dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView4"
+                    app:layout_constraintStart_toStartOf="@+id/textView4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAF8DA">
+
+                        <EditText
+                            android:id="@+id/registeremail"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/back"
+                            android:drawableLeft="@drawable/ic_baseline_email_24"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/teal_700"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <EditText
+                            android:id="@+id/confrimpassworde"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/back"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="Confirm Password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/teal_700"
+                            app:layout_constraintEnd_toEndOf="@+id/registerpassword"
+                            app:layout_constraintStart_toStartOf="@+id/registerpassword"
+                            app:layout_constraintTop_toBottomOf="@+id/registerpassword" />
+
+                        <EditText
+                            android:id="@+id/registerpassword"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/back"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:drawablePadding="10dp"
+                            android:ems="10"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/teal_700"
+                            app:layout_constraintEnd_toEndOf="@+id/registeremail"
+                            app:layout_constraintStart_toStartOf="@+id/registeremail"
+                            app:layout_constraintTop_toBottomOf="@+id/registeremail" />
+
+                        <Button
+                            android:id="@+id/register"
+                            android:layout_width="200dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/buttonback"
+                            android:gravity="center"
+                            android:text="Register"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/confrimpassworde"
+                            app:layout_constraintStart_toStartOf="@+id/confrimpassworde"
+                            app:layout_constraintTop_toBottomOf="@+id/confrimpassworde" />
+
+                        <Button
+                            android:id="@+id/loginshiftbtn"
+                            android:layout_width="200dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="24dp"
+                            android:background="@drawable/buttonback"
+                            android:gravity="center"
+                            android:text="Login"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/register"
+                            app:layout_constraintStart_toStartOf="@+id/register"
+                            app:layout_constraintTop_toBottomOf="@+id/register" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Already have an account?"
+                            android:textColor="#908C8C"
+                            android:textSize="10sp"
+                            app:layout_constraintBottom_toTopOf="@+id/loginshiftbtn"
+                            app:layout_constraintEnd_toEndOf="@+id/loginshiftbtn"
+                            app:layout_constraintStart_toStartOf="@+id/loginshiftbtn" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
