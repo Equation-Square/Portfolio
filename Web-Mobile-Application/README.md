@@ -21,3 +21,4 @@ Web & Mobile App Development
 *   **Testing & Debugging**: Implementing comprehensive testing strategies, including unit tests, integration tests, and end-to-end tests, to ensure bug-free, reliable applications.
     
 *   **Continuous Delivery & Deployment**: Streamlining the development lifecycle through CI/CD pipelines, enabling rapid iteration and deployment to production.
+![web-inage](./web.jpeg)
