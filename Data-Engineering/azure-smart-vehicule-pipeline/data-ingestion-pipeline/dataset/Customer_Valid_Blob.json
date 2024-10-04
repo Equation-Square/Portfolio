@@ -1,0 +1,41 @@
+{
+    "name": "Customer_Valid_Blob",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureBlob_LS",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "Customer_Valid.json",
+                "container": "iotdata"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "VehicleID": {
+                    "type": "string"
+                },
+                "latitiude": {
+                    "type": "number"
+                },
+                "longitude": {
+                    "type": "number"
+                },
+                "City": {
+                    "type": "string"
+                },
+                "temeprature": {
+                    "type": "integer"
+                },
+                "speed": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}

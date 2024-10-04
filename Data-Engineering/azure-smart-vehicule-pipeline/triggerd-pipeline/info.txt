@@ -1,0 +1,6 @@
+selected resource name:		triggerd-pipeline
+selected resource type:		pipeline
+factory name:			dev-afaq-adf1
+factory location:		eastus
+subscription id:		99008ad1-92fe-45b0-b48b-dbc305da5904
+time of download (UTC):		Thu, 03 Oct 2024 18:34:54 GMT

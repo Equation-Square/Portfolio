@@ -1,0 +1,41 @@
+{
+    "name": "Valid_Json_DS",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ADLS _LS",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "input/staging",
+                "fileSystem": "landing"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "VehicleID": {
+                    "type": "string"
+                },
+                "latitiude": {
+                    "type": "number"
+                },
+                "longitude": {
+                    "type": "number"
+                },
+                "City": {
+                    "type": "string"
+                },
+                "temeprature": {
+                    "type": "integer"
+                },
+                "speed": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
