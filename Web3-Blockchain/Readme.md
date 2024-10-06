@@ -21,3 +21,7 @@ Web3 and Blockchain technologies are central to our efforts in driving decentral
 *   **Tokenization**: Developing tokens to represent assets, rights, or utilities within decentralized ecosystems.
     
 *   **Distributed Ledgers**: Working with distributed ledgers for secure, immutable record-keeping and data-sharing.
+
+
+
+![blockchain-image](./blockchain.jpeg)
