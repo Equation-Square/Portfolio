@@ -1,0 +1,145 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  text-align: left;
+}
+
+.main-content {
+  width: 60%;
+}
+
+.sidebar {
+  width: 35%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+input:focus {
+  border-color: #6200ea;
+  outline: none;
+  box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+}
+
+.btn-connect,
+.btn-submit {
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-connect:hover,
+.btn-submit:hover {
+  background-color: #3700b3;
+}
+
+.btn-connect {
+  width: 100%;
+}
+
+.btn-submit {
+  width: 100%;
+}
+
+.sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sidebar p {
+  font-size: 1.3em;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.sidebar .metamask-link a {
+  color: #6200ea;
+  text-decoration: none;
+  font-size: 1.1em;
+  display: inline-block;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+.sidebar .metamask-link a:hover {
+  color: #3700b3;
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .main-content, .sidebar {
+    width: 100%;
+  }
+
+  .btn-connect, .btn-submit {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
