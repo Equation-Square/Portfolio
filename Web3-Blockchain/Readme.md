@@ -24,4 +24,4 @@ Web3 and Blockchain technologies are central to our efforts in driving decentral
 
 
 
-<img src="./blockchain.jpeg" alt="web-image" width="1000" height="450">
+<img src="./blockchain.jpeg" alt="web-image" width="900" height="350">
