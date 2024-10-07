@@ -24,5 +24,5 @@ Web & Mobile App Development
 
 
 
-<img src="./web.jpeg" alt="web-image" width="1000" height="500">
+<img src="./web.jpeg" alt="web-image" width="1000" height="450">
 
