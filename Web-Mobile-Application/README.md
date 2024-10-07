@@ -24,4 +24,5 @@ Web & Mobile App Development
 
 
 
-![web-inage](./web.jpeg)
+<img src="./web.jpeg" alt="web-image" width="600" height="400">
+
