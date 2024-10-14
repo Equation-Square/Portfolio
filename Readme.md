@@ -6,7 +6,7 @@ Welcome to the portfolio of Equations Square, where we innovate and integrate cu
 
 ## Table of Contents
 1. [Artificial Intelligence](#ai)
-2. [DevOps](#devops)
+2. [Cloud & DevOps](#devops)
 3. [Blockchain](#blockchain)
 4. [Web Development](#web-development)
 5. [Data Engineering](#data-engineering)
